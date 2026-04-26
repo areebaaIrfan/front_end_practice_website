@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    color: black;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+/* Home Page */
+
+header {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px; 
+    padding: 8px;
+    border-bottom: 2px solid sienna;
+}
+
+header h1 {
+    color: maroon;
+}
+
+header img {
+    height: 50px; 
+}
+
+nav {
+    gap: 8px; 
+    margin-left: 600px; 
+}
+
+nav a {
+    color: maroon;
+    font-weight: bold;
+    padding: 10px 6px; 
+    font-size: medium; 
+}
+
+/* Info section */
+.info {
+    text-align: center;
+    padding: 25px 15px; 
+    background-color: navajowhite;
+}
+
+.info h2 {
+    margin-bottom: 8px; 
+    color: maroon;
+}
+
+.info p {
+    color: saddlebrown;
+}
+
+/* Features Section */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    padding: 30px 15px; 
+    align-items: center;
+    width: 85%; 
+    margin: 0;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    gap: 15px; 
+}
+
+.column {
+    background-color: linen;
+    border: 1px solid peru;
+    border-radius: 8px; 
+    padding: 15px; 
+}
+
+.container h2 {
+    margin-top: -15px; 
+    margin-bottom: 15px; 
+    color: firebrick;
+}
+
+.column h3 {
+    color: maroon;
+    margin-bottom: 8px; 
+}
+
+button {
+    background-color: firebrick;
+    color: white;
+    border: none;
+    padding: 8px 16px; 
+    margin-top: 8px; 
+    margin-bottom: 8px; 
+    margin-left: 90px; 
+    border-radius: 5px;
+    align-items: center;
+}
+
+ /* About Section */
+.about {
+    padding: 30px 15px; 
+    width: 85%; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+/* Story and Mission Section */
+.story {
+    background-color: navajowhite;
+    padding: 15px; 
+    border-radius: 8px;
+    border: 1px solid peru;
+}
+
+.story h2 {
+    color: maroon;
+    margin-bottom: 8px; 
+}
+
+.story p {
+    color: saddlebrown;
+    font-size: 15px;
+    margin-bottom: 8px; 
+}
+
+/* Team Section */
+.bios {
+    background-color: navajowhite;
+    padding: 15px; 
+    border-radius: 8px;
+    border: 1px solid peru;
+    text-align: center;
+}
+
+.bios h2 {
+    color: maroon;
+    margin-bottom: 15px; 
+}
+
+.bios img {
+    border-radius: 8px; 
+    margin-bottom: 15px; 
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; 
+}
+
+.team div {
+    background-color: linen;
+    padding: 12px; 
+    border-radius: 8px; 
+    border: 1px solid peru;
+    width: 250px; 
+}
+
+.team h3 {
+    color: maroon;
+    margin-bottom: 5px;
+}
+
+.team p {
+    color: saddlebrown;
+}
+
+
+.journey {
+    background-color: navajowhite;
+    padding: 15px; 
+    border-radius: 8px;
+    border: 1px solid peru;
+}
+
+.journey h2 {
+    color: maroon;
+    margin-bottom: 8px; 
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    color: saddlebrown;
+}
+
+.timeline div {
+    padding: 6px; 
+    border-left: 4px solid firebrick;
+    padding-left: 8px; 
+    background-color: seashell;
+    border-radius: 5px;
+}
+
+/* Contact section */
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px; 
+    background-color: bisque;
+    color: black;
+    gap: 15px; /
+}
+
+.contact-form {
+    flex: 1 1 300px;
+    max-width: 40%; 
+    padding: 15px; 
+    background-color: seashell;
+    border-radius: 8px;
+    border: 1px solid sienna;
+}
+
+.contact-form h2 {
+    color: brown;
+    font-size: 16px; 
+    margin-bottom: 12px; 
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    color: saddlebrown;
+    margin-bottom: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 5px; 
+    margin-bottom: 8px; 
+    border: 1px solid peru;
+    border-radius: 4px;
+    background-color: floralwhite;
+    font-size: 12px; 
+}
+
+.contact-form button {
+    background-color: firebrick;
+    color: white;
+    padding: 6px 14px; 
+    border: none;
+    border-radius: 4px;
+    font-size: 12px; 
+}
+
+.values, .map {
+    flex: 1 1 300px;
+    max-width: 40%; 
+    padding: 15px; 
+    background-color: oldlace;
+    border: 1px solid sienna;
+    border-radius: 8px; 
+}
+
+.media {
+    width: 28%; 
+    padding: 10px; 
+    background-color: oldlace;
+    border: 1px solid sienna;
+    border-radius: 8px; 
+    margin-bottom: 30px; 
+    margin-left: 400px; 
+}
+
+.values h3,
+.map h3,
+.media h3 {
+    color: saddlebrown;
+    margin-bottom: 6px; 
+    font-size: 15px; 
+}
+
+.values p,
+.map p,
+.media p,
+.media a {
+    color: sienna;
+    font-size: 12px; 
+}
+
+.media a {
+    margin-right: 8px; 
+}
+
+/* Responsive  for small screens */
+@media screen and (max-width: 768px) {
+    .contact-form,
+    .values,
+    .map,
+    .media {
+        max-width: 100%;
+    }
+}
+
+/* Footer section */
+.footer {
+    background-color: burlywood;
+    text-align: center;
+    border-top: 2px solid sienna;
+    padding: 8px;
+    margin-top: -25px; 
+}
